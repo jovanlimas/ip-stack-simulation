@@ -1,4 +1,25 @@
-*.exe
+# Build directories
+build/
+
+# Binaries
+bin/
+
+# Object files
 *.o
-*.obj
-*.out
+
+# Dependency files
+*.d
+
+# CMake files
+*.cmake
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Logs and temporary files
+*.marks
+*.log
+
+# IDE specific files
+.idea/
+.vscode/
